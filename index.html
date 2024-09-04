@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Forum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            border: 2px solid black;
+            padding: 20px;
+            width: 400px;
+        }
+
+        h1 {
+            margin: 0 0 20px;
+        }
+
+        #average-price {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Freelancer Forum</h1>
+        <p id="average-price">The average starting price is $0.</p>
+        <h2>Available Freelancers</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                    <th>Starting Price</th>
+                </tr>
+            </thead>
+            <tbody id="freelancerlist">
+                <!-- Freelancers will be listed here -->
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
